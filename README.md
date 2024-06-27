@@ -1,1 +1,2 @@
-# whack_a_hole
+# Whack A Mole
+Find the Mole and Increase your Score!!
