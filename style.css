@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-image: url("garden.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Aladin';
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body h1{
+    position: relative;
+    bottom:10%;
+    font-size: 50px;
+    background-color: skyblue;
+}
+body h2{
+    position: relative;
+    bottom:7%;
+    font-size: 30px;
+    background-color: beige;
+}
+.board{
+    width: 705px;
+    height: 564px;
+    border-radius: 25px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 235px);
+    grid-template-rows: repeat(3, 188px);
+    gap: 8px;
+}
+.board div{
+    width:235px;
+    height: 188px;
+    background-image: url("third.png");
+    background-size: cover;
+}
+.board div img{
+    -webkit-user-drag: none;
+    width: 140px;
+    height: 140px;
+}
